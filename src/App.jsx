@@ -66,7 +66,7 @@ function App() {
                               amount={convertedAmount}
                               currencyOptions={options}
                               onCurrencyChange={(currency) => setTo(currency)} 
-                              selectCurrency={from} 
+                              selectCurrency={to} 
                               amountDisabled   
                               onAmountChange={(amount) => setAmount(amount)}   
                               
